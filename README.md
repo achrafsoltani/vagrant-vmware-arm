@@ -31,6 +31,14 @@ Suspend the VMs.
 ```
 vagrant suspend
 ```
+
+### Configuration
+Turn off swap.
+```
+sudo swapoff -a
+```
+
+
 ### Troubleshooting
 #### Unexpected communications error
 If you encountered the following error when running the vagrant commands.
