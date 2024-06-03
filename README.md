@@ -37,7 +37,13 @@ Turn off swap.
 ```
 sudo swapoff -a
 ```
-
+Configure DNS resolution of guest machines
+```
+sudo nano /etc/hosts
+172.16.132.128 vm01 # Control plane IP
+172.16.132.129 vm02
+172.16.132.130 vm03
+```
 
 ### Troubleshooting
 #### Unexpected communications error
