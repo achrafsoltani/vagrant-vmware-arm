@@ -44,6 +44,10 @@ sudo nano /etc/hosts
 172.16.132.129 vm02
 172.16.132.130 vm03
 ```
+Run commands with root privileges
+```
+sudo -i
+```
 
 ### Troubleshooting
 #### Unexpected communications error
